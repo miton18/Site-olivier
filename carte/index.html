@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+		<script type="text/javascript" src="../javascript/jquery.js"></script>
+		<script type="text/javascript" src="turn.min.js"></script>
+	</head>
+	<body>
+		<p><script>$('magazine').turn('page');</script></p>
+		<div id="magazine">
+			<div style="background-image: url('fiche/cartedef.jpg');"> </div>
+			<div style="background-image: url('fiche/cartedef.jpg');"> </div>
+			<div style="background-image: url('fiche/carte4.jpg');"> </div>
+			<div style="background-image: url('fiche/carte5.jpg');"> </div>
+			<div style="background-image: url('fiche/carte6.jpg');"> </div>
+			<div style="background-image: url('fiche/carte7.jpg');"> </div>
+			<div style="background-image: url('fiche/carte8.jpg');"> </div>
+			<div style="background-image: url('fiche/carte9.jpg');"> </div>
+			<div style="background-image: url('fiche/carte10.jpg');"> </div>
+			<div style="background-image: url('fiche/carte11.jpg');"> </div>
+			<div style="background-image: url('fiche/carte12.jpg');"> </div>
+			<div style="background-image: url('fiche/carte13.jpg');"> </div>
+			<div style="background-image: url('fiche/cartedef.jpg');"> </div>
+		</div>
+		<script>
+			$('#magazine').bind('turned', function(e, page){
+				console.log('Current view: ', $('#magazine').turn('view'));
+			})
+			$('#magazine').turn({acceleration: true, shadows: true});
+		</script>
+		<input id="but1 "type="button" name="lien1" value="precedent" onclick="javascript:$('#magazine').turn('previous');" />
+		<input id="but2" type="button" name="lien1" value="suivant" onclick="javascript:$('#magazine').turn('next');" />
+	</body>
+</html>

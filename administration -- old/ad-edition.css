@@ -1,0 +1,15 @@
+nav{
+	position: fixed;
+	top: 10%;
+	height: 75%;
+	width: 15%;
+	background-color: #080070;
+	border-radius: 10px;
+	right: 97%;
+	color: white;
+	font-family: sans-serif;
+}
+nav:hover{
+	right: 85%;
+	transition-duration: 0.5s;
+}

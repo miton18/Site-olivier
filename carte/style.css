@@ -1,0 +1,31 @@
+html, body{
+	height: 100%;
+	width: 100%;
+	position:fixed;
+	background-color: #3a3e3c;
+}
+html{
+
+	height: 90%;
+}
+#magazine{
+	height: 90%;
+	width: 100%;
+	top: 0;
+}
+#magazine .turn-page{
+	height: 100%;
+	width: 60%;
+	background-image: url('fiche/cartedef.jpg');
+	background-size: 100% 100%;
+}
+input{
+	position: fixed;
+	bottom: 1%;
+}
+#but1{
+	left: 45%;
+}
+#but2{
+	left: 55%;
+}
