@@ -18,6 +18,9 @@
 		<a href="index.php">Accueil</a>
 	</li>
 	<li class="menuli">
+		<a href="carte/index.html" target="_TOP" >La carte</a>
+	</li>
+	<li class="menuli">
 		<a href="news.php">En ce moment</a>
 	</li>
 	<li class="menuli">
@@ -25,13 +28,5 @@
 	</li>
 	<li class="menuli">
 		<a href="contact.php">Contact</a>
-	</li>
-	<li class="menuli">
-		<a id="_address5" 
-			itemprop="address" 
-            itemscope 
-            itemtype="http://schema.org/PostalAddress"
-            href="plan.php" 
-            itemprop="streetAddress">Plan d'accès</a>
 	</li>
 </ul>
